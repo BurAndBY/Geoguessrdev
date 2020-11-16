@@ -45,7 +45,6 @@
 <script>
 import History from '@/components/History';
 import About from '@/components/home/About';
-
 export default {
     components: {
         History,
@@ -80,6 +79,10 @@ export default {
                     text: '日本語',
                     value: 'ja',
                 },
+                {
+                    text: 'Русский',
+                    value: 'ru',
+                },
             ],
         };
     },
@@ -113,7 +116,6 @@ export default {
         width: auto;
     }
 }
-
 @media (max-width: 660px) {
     .header {
         .header__logo {
