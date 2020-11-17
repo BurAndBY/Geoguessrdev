@@ -16,7 +16,7 @@ export default {
                 Первый игрок создает комнату и определяет ее размер. Другие игроки вводят то же имя комнаты, что и первый созданный игрок, и игра начнется. ',
                 2: 'Эта игра была разветвлена ​​от GeoGuess Master ',
             },
-            customMap: 'CUSTOMS MAP',
+            customMap: 'Пользовательская',
             customMapDescriptions: {
                 1: 'Вы можете ограничить случайные местоположения городом, штатом или страной с помощью строки поиска.',
                 2: 'В мультиплеере местоположение определяет первый игрок..',
@@ -124,9 +124,9 @@ export default {
         },
         DialogSummary: {
             summaryMsgSingle:
-                'Вы попали <strong>{distance}</strong> km отсюда! Your score is <strong>{points}</strong> points!',
+                'Вы попали <strong>{distance}</strong> km отсюда! Ваше количество <strong>{points}</strong> очков!',
             summaryMsgMulti:
-                '<strong>{playerName}</strong> количество очков <strong>{points}</strong> ! (<strong>{distance}</strong> kmaway)',
+                '<strong>{playerName}</strong> количество очков <strong>{points}</strong> ! (<strong>{distance}</strong> км отсюда)',
             viewDetails: 'Посмотреть детали',
         },
         Footer: {
