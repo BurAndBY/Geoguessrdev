@@ -1,5 +1,5 @@
 export default {
-    en: {
+    ru: {
         Home: {
             record: 'Рекорд',
             historyBtn: 'ИСТОРИЯ',
